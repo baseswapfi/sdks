@@ -1,6 +1,6 @@
 {
-  "name": "@baseswapfi/sdk-core",
-  "description": "⚒️ An SDK for building applications on top of Baseswap V3",
+  "name": "@baseswapfi/v2-sdk",
+  "description": "🛠 An SDK for building applications on top of Baseswap V2",
   "repository": "https://github.com/Baseswapfi/sdks.git",
   "keywords": [
     "uniswap",
@@ -9,7 +9,7 @@
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
-  "module": "dist/sdk-core.esm.js",
+  "module": "dist/v2-sdk.esm.js",
   "files": [
     "dist"
   ],
@@ -24,19 +24,17 @@
     "test": "tsdx test"
   },
   "dependencies": {
+    "@baseswapfi/sdk-core": "^1.3.11",
     "@ethersproject/address": "^5.0.2",
-    "@ethersproject/bytes": "^5.7.0",
-    "@ethersproject/keccak256": "5.7.0",
-    "@ethersproject/strings": "5.7.0",
-    "big.js": "^5.2.2",
-    "decimal.js-light": "^2.5.0",
-    "jsbi": "^3.1.4",
+    "@ethersproject/solidity": "^5.0.9",
     "tiny-invariant": "^1.1.0",
-    "toformat": "^2.0.0"
+    "tiny-warning": "^1.0.3"
   },
   "devDependencies": {
     "@types/big.js": "^4.0.5",
     "@types/jest": "^24.0.25",
+    "@uniswap/v2-core": "^1.0.1",
+    "eslint-config-react-app": "7.0.1",
     "tsdx": "^0.14.1"
   },
   "prettier": {
