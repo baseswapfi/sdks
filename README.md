@@ -1,4 +1,4 @@
-# Uniswap SDK's
+# Baseswap SDK's
 
 A repository for many Baseswap SDK's. All SDK's can be found in `sdk/` and have more information in their individual README's.
 
